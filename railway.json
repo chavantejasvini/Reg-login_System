@@ -1,0 +1,19 @@
+{
+    "build": {
+      "commands": [
+        {
+          "command": "cd server && npm install",
+          "directory": "./server"
+        },
+        {
+          "command": "cd client && npm install && npm run build",
+          "directory": "./client"
+        }
+      ]
+    },
+    "start": {
+      "command": "cd server && npm start",
+      "directory": "./server"
+    }
+  }
+  
